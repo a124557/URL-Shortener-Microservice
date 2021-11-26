@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>URL Shortener Microservice | freeCodeCamp.org</title>
+	<link rel="icon" type="image/png" href="https://cdn.freecodecamp.org/universal/favicons/favicon-16x16.png" />
+	<link href="/public/style.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+	<div id="overlay">
+		<div class="container-fluid h-100 d-flex flex-column justify-content-center" id="main">
+
+
+			<div class="row">
+				<div class="col-12 d-flex justify-content-center align-items-center">
+					<h1 id="text1">URL Shortner</h1>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-12 d-flex justify-content-center align-items-center mt-4">
+					<form action="api/shorturl" method="POST">
+						<fieldset>
+							<input id="url_input" type="text" name="url" placeholder="https://www.google.ca/" size="50"/>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-12 mt-4 d-flex justify-content-center">
+    <input type="submit" value="POST URL" id="button"/>
+    </div>
+  </div>
+          </form>
+            </fieldset>
+
+
+</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+  <script  src="https://cdpn.io/cp/internal/boomboom/pen.js?key=pen.js-d14071bc-4fd4-2f28-db52-00be06044c29" crossorigin></script>
+  </body>
+</html>
